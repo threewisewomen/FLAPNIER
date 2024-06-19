@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box logo-contact" id="box1" onclick="window.location.href='contact.html'">1. Logo & Contact</div>
+        <div class="box service" id="box2" onclick="window.location.href='booking.html'">2. Pet Boarding & Sitting</div>
+        <div class="box service" id="box3" onclick="window.location.href='booking.html'">3. Pet Training & Grooming</div>
+        <div class="box service" id="box4" onclick="window.location.href='booking.html'">4. Pet Neutering</div>
+        <div class="box media" id="box5">
+            <div class="media-content">
+                <frame><img src="dog1.jpg" alt="Media 1"></frame>
+                <frame><img src="dog2.jpg" alt="Media 2"></frame>
+                <frame><img src="dog3.jpg" alt="Media 3"></frame>
+            </div>
+        </div>
+        <div class="box arrows" id="box6">
+            <button class="arrow left" onclick="swipeLeft()">⬅️</button>
+            <button class="arrow right" onclick="swipeRight()">➡️</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
